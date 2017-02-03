@@ -12,7 +12,8 @@ public class LocatorsEx1 {
 		WebDriver obj1 = new FirefoxDriver();
 		obj1.get("http://qaclickacademy.usefedora.com/");
 		obj1.findElement(By.xpath("html/body/div[1]/center/a")).click(); 
-		// Absolute Xpath with single slash
+		// Absolute Xpath with single slash. Start selection from document/node.
+		// Doble slashes for Relative xpath .it selects the element from anywhre in the Document. 
 
 	}
 
