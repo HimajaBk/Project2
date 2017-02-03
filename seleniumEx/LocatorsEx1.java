@@ -11,7 +11,7 @@ public class LocatorsEx1 {
 		
 		WebDriver obj1 = new FirefoxDriver();
 		obj1.get("http://qaclickacademy.usefedora.com/");
-		obj1.findElement(By.xpath("html/body/div[1]/center/a")).click();
+		obj1.findElement(By.xpath("html/body/div[1]/center/a")).click(); // Absolute Xpath
 
 	}
 
